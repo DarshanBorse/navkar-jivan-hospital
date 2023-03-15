@@ -40,10 +40,10 @@ const Navbar = () => {
                 <nav className="relative flex items-center justify-between sm:h-10" aria-label="Global">
                   <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                     <div className="flex justify-between w-full md:w-auto">
-                      <a href="/" className="flex justify-start w-full md:w-auto">
+                      <Link href="/" className="flex justify-start w-full md:w-auto">
                         <span className="sr-only">Navkar</span>
-                        <Image className="h-8 w-auto sm:h-10" src="/images/logo.png" width={168} height={50} priority={true} />
-                      </a>
+                        <Image className="h-8 w-auto sm:h-10" src="/images/logo.png" alt="logo" width={168} height={50} priority={true} />
+                      </Link>
                       <div className="-mr-2 flex items-center md:hidden">
                         <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-500 hover:bg-gray-100 focus:outline-none">
                           <span className="sr-only">Open main menu</span>
@@ -79,7 +79,7 @@ const Navbar = () => {
                           </ul>
                         </div>
                       ) : (
-                        <Link href={item.href} className={item.className}>
+                        <Link href={item.href} key={item.href} className={item.className}>
                           {item.name}
                         </Link>
                       )

@@ -134,7 +134,7 @@ export default function Index() {
 
           <div className="grid lg:grid-cols-12  gap-x-28 lg:mx-auto mt-10 mx-5">
             {statistics.map((data, index) => (
-              <div className="bg-white w-full lg:mx-auto my-5 lg:col-span-3  rounded p-5 hover:shadow cursor-pointer hover:scale-105 transition-all delay-100 ease-in-out">
+              <div key={index} className="bg-white w-full lg:mx-auto my-5 lg:col-span-3  rounded p-5 hover:shadow cursor-pointer hover:scale-105 transition-all delay-100 ease-in-out">
                 <Image src={data.image} width={700} height={700} quality={100} priority={true} className=" w-24 mx-auto relative p-5" />
                 <div className="text-center font-medium text-gray-800 text-2xl">{data.name}</div>
                 <div className="text-center">{data.desc}</div>
@@ -150,7 +150,7 @@ export default function Index() {
 
           <div className="grid lg:grid-cols-12 mx-5 gap-x-20 gap-y-20 lg:mx-auto mt-10">
             {specialities.map((data, index) => (
-              <div className="transform hover:-translate-y-3 hover:shadow-md  hover:scale-105 aspect-video transition-all duration-500 ease-in-out bg-gradient-to-tl from-brandColor to-rose-500 w-full mx-auto col-span-3 rounded p-5 cursor-pointer">
+              <div key={index} className="transform hover:-translate-y-3 hover:shadow-md  hover:scale-105 aspect-video transition-all duration-500 ease-in-out bg-gradient-to-tl from-brandColor to-rose-500 w-full mx-auto col-span-3 rounded p-5 cursor-pointer">
                 <Image src={data.image} width={600} height={400} quality={100} priority={true} className="w-24 mx-auto relative p-5" />
                 <div className="text-center font-medium text-white  text-xl">{data.name}</div>
               </div>

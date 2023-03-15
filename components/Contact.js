@@ -60,14 +60,14 @@ const Contact = (props) => {
               <FontAwesomeIcon icon={faCheckCircle} className="font-light h-12 w-12 text-brandColor mb-2 m-auto" />
             </p>
             <p className="text-center font-body text-gray-500 w-full justify-center">
-              Great! We've received your message.
+              Great! We &#39; ve received your message.
               <br />
-              We'll get back to you soon.
+              We&#39;ll get back to you soon.
             </p>
           </div>
           <div id="errorMessage" className="justify-center mb-3 animate-fade-in-down" style={{ display: errorMessage ? "block" : "none" }}>
             <p className="text-center font-body text-gray-900 w-full justify-center">
-              We're sorry, something went wrong at our end.
+              We&#39;re sorry, something went wrong at our end.
               <br />
               Please try again or <span className="text-brandColor">call us on +91 73500 12365</span>
             </p>
@@ -137,7 +137,7 @@ const Contact = (props) => {
                   </div>
                   {errors.terms?.type === "required" && (
                     <span class="ml-6 font-body text-sm text-red-500">
-                      Relax! We don't sale your information. Selecting the box will allow us to contact you.
+                      Relax! We don&#39;t sale your information. Selecting the box will allow us to contact you.
                     </span>
                   )}
                 </div>
