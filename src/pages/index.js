@@ -28,13 +28,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Contact from "../../components/Contact";
 
-const contactFormDetails = [
-  {
-    title: "Get started",
-    description:
-      "Feel free to contact us. We're excited to know more about your business.",
-  },
-];
 
 let statistics = [
   {
@@ -125,9 +118,7 @@ const specialities = [
 export default function Index() {
   return (
     <>
-      <Head>
-        <title>Navkar Hospital</title>
-      </Head>
+
 
       <div className="pt-12 lg:pt-28 pb-12 lg:pb-28">
         <div className="relative z-10 w-full max-w-7xl mx-auto">
