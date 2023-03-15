@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="grid gap-3 lg:gap-8 grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto ">
           <div className="col-span-2 lg:col-span-1 order-1">
             <div className="flex justify-start items-center gap-1">
-              <Image className="h-60 w-auto sm:h-10" src="/images/logo.png" alt="logo" width={600} height={1000} />
+              <Image className="h-20 w-auto sm:h-10" src="/images/logo.png" alt="logo" width={400} height={200} />
               <h1 className="text-xl">Navkar Hospital</h1>
             </div>
             <p className="mt-3 mb-3 lg:mb-6 text-base text-left font-body text-gray-500 max-w-3xl mx-auto">
