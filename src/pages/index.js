@@ -118,8 +118,6 @@ const specialities = [
 export default function Index() {
   return (
     <>
-
-
       <div className="pt-12 lg:pt-28 pb-12 lg:pb-28">
         <div className="relative z-10 w-full max-w-7xl mx-auto">
           <main className="grid gap-6 lg:gap-12 grid-cols-1 lg:grid-cols-2 mt-10 mx-auto w-full px-4 lg:px-0">
@@ -128,7 +126,7 @@ export default function Index() {
                 Restore Your Health
               </h1>
               <p className="mt-3 text-base font-body text-gray-500 sm:mt-5 sm:text-lg w-full lg:max-w-xl mx-auto md:mt-5 md:text-xl lg:mx-0">
-                You don't appreciate life until you get to the other side. Like
+                You don&lsquo;t appreciate life until you get to the other side. Like
                 lying in a hospital bed.{" "}
               </p>
               <div className="mt-5 sm:mt-8 sm:flex justify-start">
